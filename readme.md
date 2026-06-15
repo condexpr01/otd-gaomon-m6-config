@@ -1,5 +1,4 @@
 
-
 # required plugins
 
 |required plugins|
@@ -44,8 +43,7 @@ makepkg -si
 > then run `otd-daemon` with `&`,
 > use `t` to switch preset, like `t art`,`t mouse`,`t art` ,`t ink`
 
-
-
+> Hint: ensure that plane of the curled fingers is perpendicular to the pen for better control.
 
 
 
