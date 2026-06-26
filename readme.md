@@ -5,7 +5,7 @@
 |---|
 |Scroll Bindings|
 |Windows ink plugins(windows)|
-|driver(windows)  git@github.com:X9VoiD/vmulti-bin.git|
+|driver(windows)  [X9VoiD/vmulti-bin](git@github.com:X9VoiD/vmulti-bin.git)|
 
 
 # presets
@@ -43,7 +43,13 @@ makepkg -si
 > then run `otd-daemon` with `&`,
 > use `t` to switch preset, like `t art`,`t mouse`,`t art` ,`t ink`
 
+```
+#e.g. in msys2 on win11
+#Using sh will create a subprocess to keep
+#the session id consistent across windows UAC
+sudo sh -c 'otd-daemon' &
+t mouse
+```
+
 > Hint: ensure that plane of the curled fingers is perpendicular to the pen for better control.
-
-
 
