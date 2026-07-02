@@ -108,8 +108,42 @@
             ],
             "Enable": true
           },
-          null,
-          null,
+          {
+            "Path": "ScrollBinding.NewBulletproofScrollBinding",
+            "Settings": [
+              {
+                "Property": "Property",
+                "Value": "Scroll Backward"
+              },
+              {
+                "Property": "Delay",
+                "Value": 200
+              },
+              {
+                "Property": "Amount",
+                "Value": 1
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "ScrollBinding.NewBulletproofScrollBinding",
+            "Settings": [
+              {
+                "Property": "Property",
+                "Value": "Scroll Forward"
+              },
+              {
+                "Property": "Delay",
+                "Value": 200
+              },
+              {
+                "Property": "Amount",
+                "Value": 1
+              }
+            ],
+            "Enable": true
+          },
           null,
           null,
           null,
